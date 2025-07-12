@@ -196,8 +196,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-22T06:44:48.387Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -209,8 +208,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\GradesController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowBUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T14:14:06.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T14:14:06.963Z"
             },
             {
               "$type": "Document",
@@ -222,8 +220,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Provider\\Services\\GradeService.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowDAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T13:59:50.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T13:59:50.146Z"
             },
             {
               "$type": "Document",
@@ -233,7 +230,7 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\GradingRequest.cs",
               "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\GradingRequest.cs",
               "RelativeToolTip": "SchoolManagementSystem\\DTOs\\GradingRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T14:06:59.922Z",
               "EditorCaption": ""
@@ -248,8 +245,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Models\\Grade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T13:52:51.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T13:52:51.426Z"
             },
             {
               "$type": "Document",
@@ -261,8 +257,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAEsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T18:08:14.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T18:08:14.664Z"
             },
             {
               "$type": "Document",
@@ -274,8 +269,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Provider\\Interfaces\\IGradeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T13:54:51.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T13:54:51.039Z"
             },
             {
               "$type": "Document",
@@ -299,8 +293,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Provider\\Interfaces\\IStudentManagementService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T23:27:47.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T23:27:47.76Z"
             },
             {
               "$type": "Document",
@@ -312,8 +305,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:29:21.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:29:21.789Z"
             },
             {
               "$type": "Document",
@@ -493,8 +485,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:20:03.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:20:03.549Z"
             },
             {
               "$type": "Document",
