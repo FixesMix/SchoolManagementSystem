@@ -20,6 +20,7 @@ namespace SchoolManagementSystem.Data
         public DbSet<ProfessorCourse> ProfessorCourses => Set<ProfessorCourse>();
         public DbSet<Classroom> Classrooms => Set<Classroom>();
         public DbSet<Schedule> Schedules => Set<Schedule>();
+        public DbSet<Grade> Grades => Set<Grade>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
