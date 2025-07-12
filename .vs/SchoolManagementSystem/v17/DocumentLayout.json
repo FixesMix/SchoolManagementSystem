@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\dtos\\gradingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\dtos\\gradingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\interfaces\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\interfaces\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\interfaces\\istudentmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\interfaces\\istudentmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\services\\schedulingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\dtos\\addscheduledcoursesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\dtos\\addscheduledcoursesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\interfaces\\ischedulingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,41 +182,104 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 316,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "School_Management Rd.json",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\School_Management Rd.json",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\School_Management Rd.json",
               "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\School_Management Rd.json",
               "RelativeToolTip": "SchoolManagementSystem\\School_Management Rd.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-22T06:44:48.387Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddScheduledCoursesRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
-              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T16:31:12.14Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GradesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\GradesController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\GradesController.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\GradesController.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Controllers\\GradesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T14:14:06.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GradeService.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\GradeService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\GradeService.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\GradeService.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Provider\\Services\\GradeService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowDAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:59:50.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GradingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\GradingRequest.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\GradingRequest.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\GradingRequest.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\DTOs\\GradingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T14:06:59.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Grade.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Models\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:52:51.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:08:14.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGradeService.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IGradeService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Interfaces\\IGradeService.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IGradeService.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Provider\\Interfaces\\IGradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:54:51.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SchedulingController.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\SchedulingController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\SchedulingController.cs",
@@ -208,13 +291,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "IStudentManagementService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IStudentManagementService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Interfaces\\IStudentManagementService.cs",
               "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IStudentManagementService.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Provider\\Interfaces\\IStudentManagementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T23:27:47.76Z",
               "EditorCaption": ""
@@ -222,6 +305,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:29:21.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddScheduledCoursesRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\DTOs\\AddScheduledCoursesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:31:12.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Schedule.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Schedule.cs",
@@ -233,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Classroom.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Classroom.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Classroom.cs",
@@ -245,19 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T18:08:14.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "SchedulingService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\SchedulingService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\SchedulingService.cs",
@@ -269,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "ISchedulingService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\ISchedulingService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Interfaces\\ISchedulingService.cs",
@@ -281,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "20250629162511_AddedScheduleClassroomTables.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250629162511_AddedScheduleClassroomTables.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250629162511_AddedScheduleClassroomTables.cs",
@@ -293,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ProfessorManagementController.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\ProfessorManagementController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\ProfessorManagementController.cs",
@@ -305,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Course.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Course.cs",
@@ -317,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\User.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\User.cs",
@@ -329,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "StudentCourse.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\StudentCourse.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\StudentCourse.cs",
@@ -341,19 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:29:21.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Student.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Student.cs",
@@ -365,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Professor.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Professor.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Professor.cs",
@@ -377,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "20250628010929_AddedCourseTable\u002BRelations.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628010929_AddedCourseTable\u002BRelations.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250628010929_AddedCourseTable\u002BRelations.cs",
@@ -389,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ProfessorCourse.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\ProfessorCourse.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\ProfessorCourse.cs",
@@ -401,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Admin.cs",
@@ -409,11 +493,12 @@
               "RelativeToolTip": "SchoolManagementSystem\\Models\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:20:03.549Z"
+              "WhenOpened": "2025-06-22T17:20:03.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "20250628005621_AddedAdvisorsColumn.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628005621_AddedAdvisorsColumn.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250628005621_AddedAdvisorsColumn.cs",
@@ -425,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Student\\StudentDTO.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Student\\StudentDTO.cs",
@@ -437,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "20250628004826_AddedAdvisorsColumn.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\source\\repos\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628004826_AddedAdvisorsColumn.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628004826_AddedAdvisorsColumn.cs",
@@ -449,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "JwtAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\JwtAuthorizationService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\JwtAuthorizationService.cs",
@@ -461,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "20250628005121_AddedAdvisorsEnrollColumn.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\source\\repos\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628005121_AddedAdvisorsEnrollColumn.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250628005121_AddedAdvisorsEnrollColumn.cs",
@@ -473,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "UpdateStudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Student\\UpdateStudentDTO.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Student\\UpdateStudentDTO.cs",
@@ -485,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "CreateStudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Student\\CreateStudentDTO.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Student\\CreateStudentDTO.cs",
@@ -497,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "AddUserRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\AddUserRequest.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\AddUserRequest.cs",
@@ -509,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "UpdateProfessorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Professor\\UpdateProfessorDTO.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Professor\\UpdateProfessorDTO.cs",
@@ -521,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "20250627234821_UpdatedProfessorsTableTime.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250627234821_UpdatedProfessorsTableTime.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250627234821_UpdatedProfessorsTableTime.cs",
@@ -533,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "20250627234354_UpdatedProfessorsTable.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250627234354_UpdatedProfessorsTable.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250627234354_UpdatedProfessorsTable.cs",
@@ -545,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "ProfessorManagementService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\ProfessorManagementService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\ProfessorManagementService.cs",
@@ -557,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "CreateProfessorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Professor\\CreateProfessorDTO.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Professor\\CreateProfessorDTO.cs",
@@ -569,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Users\\Login.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Users\\Login.cs",
@@ -581,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "IJwtAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IJwtAuthorizationService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Interfaces\\IJwtAuthorizationService.cs",
@@ -593,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "JwtConfig.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\JwtConfig.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\JwtConfig.cs",
@@ -605,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "20250627034503_UpdatedStudentProfessorTables.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Migrations\\20250627034503_UpdatedStudentProfessorTables.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Migrations\\20250627034503_UpdatedStudentProfessorTables.cs",
@@ -617,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "AuthenticationHelperService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Helpers\\AuthenticationHelperService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Helpers\\AuthenticationHelperService.cs",
@@ -629,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "School_Management Rd.json",
               "DocumentMoniker": "C:\\Users\\Aura\\Downloads\\School_Management Rd.json",
               "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\School_Management Rd.json",
@@ -638,6 +723,28 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-21T17:43:40.861Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 84,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
