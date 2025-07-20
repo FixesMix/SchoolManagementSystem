@@ -11,6 +11,8 @@ namespace SchoolManagementSystem.Models
         public DateTime GraduationDate { get; set; }
         public DateTime EnrollDate { get; set; }
         public int CompletedCredits { get; set; }
+        public string StudentType {get; set; }
+        public int StudentLevel { get; set; }
         public string? Advisor { get; set; }
         public User User { get; set; } // navigation property for foreign key relationship
 

@@ -6,6 +6,7 @@
         public DateTime GraduationDate { get; set; }
         public DateTime EnrollDate { get; set; }
         public int CompletedCredits { get; set; }
+        public int StudentLevel { get; set; }
 
 
     }

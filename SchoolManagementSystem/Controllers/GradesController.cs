@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SchoolManagementSystem.DTOs;
+using SchoolManagementSystem.DTOs.Grades;
 using SchoolManagementSystem.Provider.Interfaces;
 
 namespace SchoolManagementSystem.Controllers
@@ -15,49 +15,43 @@ namespace SchoolManagementSystem.Controllers
             _gradeService = gradeService;
         }
 
-        [HttpPost("assign grade")]
+        [HttpPost("assign-grade")]
         public async Task<IActionResult> AssignGrade([FromBody] GradingRequest request)
         {
             await _gradeService.AssignGrade(request.StudentId, request.CourseId, request.Score);
             return Ok("Grade assigned.");
         }
 
-        [HttpGet("get gpa")]
+        [HttpGet("get-gpa")]
         public async Task<IActionResult> GetGPA(string studentId)
         {
             var gpa = await _gradeService.CalculateGPA(studentId);
             return Ok(gpa);
         }
 
-        [HttpGet("get list of a student's grades")]
+        [HttpGet("get-list-of-a-student's-grades")]
         public async Task<IActionResult> GetStudentGrades(string studentId)
         {
             var grades = await _gradeService.GetGradesForStudent(studentId);
             return Ok(grades);
         }
 
-        [HttpGet("get grades for course")]
-        public async Task<IActionResult> GetCourseGrades(string courseId)
+       
+        [HttpGet("get-student's-grade-in-1-course")]
+        public async Task<IActionResult> GetGrade([FromQuery] string studentId, [FromQuery] string courseId)
         {
-            var grades = await _gradeService.GetGradesForCourse(courseId);
-            return Ok(grades);
-        }
-
-        [HttpGet("get student's grade in 1 course")]
-        public async Task<IActionResult> GetGrade([FromBody] GradingRequest request)
-        {
-            var grade = await _gradeService.GetGrade(request.StudentId, request.CourseId);
+            var grade = await _gradeService.GetGrade(studentId, courseId);
             return Ok(grade);
         }
 
-        [HttpPut("update")]
+        [HttpPut("update-a-grade")]
         public async Task<IActionResult> UpdateGrade(string studentId, string courseId, double newScore)
         {
             await _gradeService.UpdateGrade(studentId, courseId, newScore);
-            return Ok("Grade updated.");
+            return Ok("Grade-updated.");
         }
 
-        [HttpDelete("delete")]
+        [HttpDelete("delete-a-grade")]
         public async Task<IActionResult> DeleteGrade(string studentId, string courseId)
         {
             await _gradeService.DeleteGrade(studentId, courseId);

@@ -11,6 +11,7 @@ namespace SchoolManagementSystem.Data
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", false);
         }
 
+        //repository pattern
         public DbSet<Professor> Professors => Set<Professor>();
         public DbSet<Admin> Admins => Set<Admin>();
         public DbSet<Student> Students => Set<Student>();
@@ -21,6 +22,9 @@ namespace SchoolManagementSystem.Data
         public DbSet<Classroom> Classrooms => Set<Classroom>();
         public DbSet<Schedule> Schedules => Set<Schedule>();
         public DbSet<Grade> Grades => Set<Grade>();
+        public DbSet<Fees> Fees => Set<Fees>();
+        public DbSet<CourseFees> CourseFees => Set<CourseFees>();
+        public DbSet<Attendance> Attendances => Set<Attendance>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

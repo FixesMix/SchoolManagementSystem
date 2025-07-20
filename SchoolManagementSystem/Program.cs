@@ -74,6 +74,8 @@ builder.Services.AddScoped<IStudentManagementService, StudentManagementService>(
 builder.Services.AddScoped<IProfessorManagementService, ProfessorManagementService>();
 builder.Services.AddScoped<ISchedulingService, SchedulingService>();
 builder.Services.AddScoped<IGradeService, GradeService>();
+builder.Services.AddScoped<IFeeService, FeeService>();
+builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

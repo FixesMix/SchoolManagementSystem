@@ -7,5 +7,7 @@
         public int CompletedCredits { get; set; }
         public string? Advisor { get; set; }
         public List<string?> EnrolledCourses { get; set; }
+        public int StudentLevel { get; set; }
+
     }
 }

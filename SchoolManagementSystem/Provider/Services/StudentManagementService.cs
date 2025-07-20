@@ -30,7 +30,8 @@ namespace SchoolManagementSystem.Provider.Services
                 Advisor = student.Advisor,
                 EnrollDate = student.EnrollDate,
                 GraduationDate = student.GraduationDate,
-                CompletedCredits = student.CompletedCredits
+                CompletedCredits = student.CompletedCredits,
+                StudentLevel = student.StudentLevel,
             };
 
             return result;
@@ -84,7 +85,9 @@ namespace SchoolManagementSystem.Provider.Services
                     UserId = s.UserId,
                     GraduationDate = s.GraduationDate,
                     EnrollDate = s.EnrollDate,
-                    CompletedCredits = s.CompletedCredits
+                    CompletedCredits = s.CompletedCredits,
+                    StudentLevel = s.StudentLevel,
+
                 }).ToListAsync();
 
             return students;
@@ -99,7 +102,8 @@ namespace SchoolManagementSystem.Provider.Services
                     UserId = s.UserId,
                     GraduationDate = s.GraduationDate,
                     EnrollDate = s.EnrollDate,
-                    CompletedCredits = s.CompletedCredits
+                    CompletedCredits = s.CompletedCredits,
+                    StudentLevel = s.StudentLevel,
                 })
                 .FirstOrDefaultAsync();
 
@@ -113,7 +117,8 @@ namespace SchoolManagementSystem.Provider.Services
                 UserId = userId,
                 GraduationDate = dto.GraduationDate,
                 EnrollDate = dto.EnrollDate,
-                CompletedCredits = dto.CompletedCredits
+                CompletedCredits = dto.CompletedCredits,
+                StudentLevel = dto.StudentLevel
             };
 
             _dbContext.Students.Add(added);
@@ -124,7 +129,8 @@ namespace SchoolManagementSystem.Provider.Services
                 UserId = added.UserId,
                 GraduationDate = added.GraduationDate,
                 EnrollDate = added.EnrollDate,
-                CompletedCredits = added.CompletedCredits
+                CompletedCredits = added.CompletedCredits,
+                StudentLevel = added.StudentLevel
             };
 
             return result;
@@ -139,6 +145,7 @@ namespace SchoolManagementSystem.Provider.Services
             student.GraduationDate = dto.GraduationDate;
             student.EnrollDate = dto.EnrollDate;
             student.CompletedCredits = dto.CompletedCredits;
+            student.StudentLevel = dto.StudentLevel;
 
             await _dbContext.SaveChangesAsync();
 
@@ -147,7 +154,8 @@ namespace SchoolManagementSystem.Provider.Services
                 UserId = student.UserId,
                 GraduationDate = student.GraduationDate,
                 EnrollDate = student.EnrollDate,
-                CompletedCredits = student.CompletedCredits
+                CompletedCredits = student.CompletedCredits,
+                StudentLevel=student.StudentLevel
             };
 
             return result;

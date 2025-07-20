@@ -1,4 +1,4 @@
-﻿namespace SchoolManagementSystem.DTOs
+﻿namespace SchoolManagementSystem.DTOs.Grades
 {
     public class GradingRequest
     {
