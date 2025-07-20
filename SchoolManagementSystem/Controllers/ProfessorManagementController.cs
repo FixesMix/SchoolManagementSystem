@@ -16,21 +16,21 @@ namespace SchoolManagementSystem.Controllers
             _professorManagementService = professorManagementService;
         }
 
-        [HttpGet ("Display Professor")]
+        [HttpGet ("display-professor")]
         public async Task <ActionResult<IEnumerable<ProfessorDTO>>> DisplayProfessors()
         {
             var result = await _professorManagementService.GetAllProfessorsAsync();
             return Ok(result);
         }
 
-        [HttpGet("Display Professor By Id")]
+        [HttpGet("display-professor-by-id")]
         public async Task<ActionResult<IEnumerable<ProfessorDTO>>> DisplayStudentsById(string id)
         {
             var result = await _professorManagementService.GetProfessorByIdAsync(id);
             return Ok(result);
         }
 
-        [HttpPost("Create Professor")]
+        [HttpPost("create-professor")]
         public async Task<IActionResult> CreateProfessor(string userId, [FromBody] CreateProfessorDTO dto)
         {
             var result = await _professorManagementService.CreateProfessorAsync(userId, dto);
@@ -38,14 +38,14 @@ namespace SchoolManagementSystem.Controllers
         }
 
 
-        [HttpPut("Update Professor")]
+        [HttpPut("update-professor")]
         public async Task<IActionResult> UpdateStudent([FromBody] UpdateProfessorDTO dto, string id)
         {
             var result = await _professorManagementService.UpdateProfessorAsync(id, dto);
             return Ok(result);
         }
 
-        [HttpDelete("Delete Professor")]
+        [HttpDelete("delete-professor")]
         public async Task<IActionResult> DeleteProfessor(string id)
         {
             var result = await _professorManagementService.DeleteProfessorAsync(id);

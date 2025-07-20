@@ -29,7 +29,7 @@ namespace SchoolManagementSystem.Controllers
             return Ok(gpa);
         }
 
-        [HttpGet("get-list-of-a-student's-grades")]
+        [HttpGet("get-list-of-a-students-grades")]
         public async Task<IActionResult> GetStudentGrades(string studentId)
         {
             var grades = await _gradeService.GetGradesForStudent(studentId);
@@ -37,7 +37,7 @@ namespace SchoolManagementSystem.Controllers
         }
 
        
-        [HttpGet("get-student's-grade-in-1-course")]
+        [HttpGet("get-student-grade-in-1-course")]
         public async Task<IActionResult> GetGrade([FromQuery] string studentId, [FromQuery] string courseId)
         {
             var grade = await _gradeService.GetGrade(studentId, courseId);

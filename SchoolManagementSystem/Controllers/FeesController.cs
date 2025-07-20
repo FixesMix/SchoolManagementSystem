@@ -14,28 +14,28 @@ namespace SchoolManagementSystem.Controllers
             _feeService = feeService;
         }
 
-        [HttpPost("Add-course-fee")]
+        [HttpPost("add-course-fee")]
         public async Task<IActionResult> AddCourseFee(string courseId, decimal cost)
         {
             var result = await _feeService.AddCourseFee(courseId, cost);
             return Ok(result);
         }
 
-        [HttpPost("Assign-student-fee")]
+        [HttpPost("assign-student-fee")]
         public async Task<IActionResult> AssignStudentFee([FromBody]FeesRequest studentFee)
         {
             var result = await _feeService.AssignStudentFee(studentFee);
             return Ok(result);
         }
 
-        [HttpGet("Get-Student-Fees")] //no body needed cus youre just retrieving the results
+        [HttpGet("get-Student-Fees")] //no body needed cus youre just retrieving the results
         public async Task<IActionResult> GetStudentFee(string studentId)
         {
             var result = await _feeService.GetStudentFee(studentId);
             return Ok(result);
         }
 
-        [HttpPut("Update-student-fee")]
+        [HttpPut("update-student-fee")]
         public async Task<IActionResult> UpdateStudentFee([FromBody]UpdateFeeRequest studentFee)
         {
             var result = await _feeService.UpdateStudentFee(studentFee);

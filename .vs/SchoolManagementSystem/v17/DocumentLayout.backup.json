@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,18 +35,6 @@
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\services\\feeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\provider\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\provider\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\dtos\\attendances\\updateattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\dtos\\attendances\\updateattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\dtos\\attendances\\getattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\dtos\\attendances\\getattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\school_management rd.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1AF2304-BD25-4237-AA17-B2EC804D225D}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\aura\\documents\\github\\schoolmanagementsystem\\schoolmanagementsystem\\models\\fees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,11 +219,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 450,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "School_Management Rd.json",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\School_Management Rd.json",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\School_Management Rd.json",
@@ -241,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AttendanceController.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\AttendanceController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\AttendanceController.cs",
@@ -254,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IAttendanceService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Interfaces\\IAttendanceService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Interfaces\\IAttendanceService.cs",
@@ -267,12 +267,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AttendanceService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs",
-              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs*",
-              "RelativeToolTip": "SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs*",
+              "ToolTip": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Provider\\Services\\AttendanceService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAUwF4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T17:24:24.035Z",
@@ -280,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\AppDbContext.cs",
@@ -293,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FeeService.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Provider\\Services\\FeeService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Provider\\Services\\FeeService.cs",
@@ -306,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
@@ -319,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpdateAttendance.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Attendances\\UpdateAttendance.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Attendances\\UpdateAttendance.cs",
@@ -332,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Attendance.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Attendance.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Attendance.cs",
@@ -345,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AddAttendance.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Attendances\\AddAttendance.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Attendances\\AddAttendance.cs",
@@ -358,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GetAttendance.cs",
               "DocumentMoniker": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\DTOs\\Attendances\\GetAttendance.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\DTOs\\Attendances\\GetAttendance.cs",

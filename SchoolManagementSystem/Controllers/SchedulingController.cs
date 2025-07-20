@@ -16,28 +16,28 @@ namespace SchoolManagementSystem.Controllers
             _schedulingService = schedulingService;
         }
 
-        [HttpPost("Create schedule")]
+        [HttpPost("create-schedule")]
         public async Task<IActionResult> CreateSchedule([FromBody]AddScheduledCoursesRequest courseSchedule)
         {
             var result = await _schedulingService.CreateSchedule(courseSchedule);
             return Ok(result);
         }
 
-        [HttpPut("Update schedules")]
+        [HttpPut("update-schedules")]
         public async Task<IActionResult> UpdateSchedule([FromBody] AddScheduledCoursesRequest updatedDetails, string scheduleId)
         {
             var result = await _schedulingService.UpdateSchedule(scheduleId, updatedDetails);
             return Ok(result);
         }
 
-        [HttpDelete("Delete schedules")]
+        [HttpDelete("delete-schedules")]
         public async Task<IActionResult> CancelSchedule(string scheduleId)
         {
             var result = _schedulingService.CancelSchedule(scheduleId);
             return Ok(result);
         }
 
-        [HttpGet("Retrieve schedules")]
+        [HttpGet("retrieve-schedules")]
         public async Task<IActionResult> GetSchedulesByDate(DateTime date)
         {
             var result = await _schedulingService.GetSchedulesByDate(date);

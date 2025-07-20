@@ -17,12 +17,6 @@ namespace SchoolManagementSystem.Provider.Services
 
         public async Task<FeesResponse> AssignStudentFee(FeesRequest studentFee)
         {
-
-            //sperate course table w fees
-            //get student id  
-            //fetch stuednts. loop through all the students in the student table, assign a fee based on courses taken
-
-            //fetch based on level
             var fetchedStudents = await _dbContext.Students
                 .Where(s => s.StudentLevel == studentFee.StudentLevel).ToListAsync();
 
@@ -60,8 +54,6 @@ namespace SchoolManagementSystem.Provider.Services
                 StudentLevel = studentFee.StudentLevel
             };
         }
-
-        //Full time = set amount of tuition, Part Time pays by course. Each course is the same amount of $ 
 
         public async Task<CourseFeeResponse?> AddCourseFee(string courseId, decimal cost)
         {

@@ -16,21 +16,21 @@ namespace SchoolManagementSystem.Controllers
             _studentManagementService = studentManagementService;
         }
 
-        [HttpGet("display student")]
+        [HttpGet("display-student")]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> DisplayStudents()
         {
             var result = await _studentManagementService.GetAllStudentsAsync();
             return Ok(result);
         }
 
-        [HttpGet("display student by id")]
+        [HttpGet("display-student-by-id")]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> DisplayStudentsById(string id)
         {
             var result = await _studentManagementService.GetStudentByIdAsync(id);
             return Ok(result);
         }
 
-        [HttpPost("create student")]
+        [HttpPost("create-student")]
         public async Task<IActionResult> CreateStudent(string userId, [FromBody] CreateStudentDTO dto)
         {
             var result = await _studentManagementService.CreateStudentAsync(userId, dto);
@@ -38,7 +38,7 @@ namespace SchoolManagementSystem.Controllers
         }
 
 
-        [HttpPut("update student")]
+        [HttpPut("update-student")]
         public async Task<IActionResult> UpdateStudent([FromBody] UpdateStudentDTO dto, string id)
         {
             var result = await _studentManagementService.UpdateStudentAsync(id, dto);
@@ -46,21 +46,21 @@ namespace SchoolManagementSystem.Controllers
         }
 
 
-        [HttpDelete("delete student")]
+        [HttpDelete("delete-student")]
         public async Task<IActionResult> DeleteStudent(string id)
         {
             var result = await _studentManagementService.DeleteStudentAsync(id);
             return Ok(result);
         }
 
-        [HttpPut("assign advisor")]
+        [HttpPut("assign-advisor")]
         public async Task<IActionResult> AssignAdvisor(string id, string advisor)
         {
             var updatedStudent = await _studentManagementService.AssignAdvisor(id, advisor);
             return Ok(updatedStudent);
         }
 
-        [HttpPost("enroll student in course")]
+        [HttpPost("enroll-student-in-course")]
         public async Task<IActionResult> EnrollStudentInCourse(string studentId, string courseId)
         {
             try
@@ -74,7 +74,7 @@ namespace SchoolManagementSystem.Controllers
             }
         }
 
-        [HttpDelete("drop student from course")]
+        [HttpDelete("drop-student-from-course")]
         public async Task<IActionResult> DropStudentFromCourse(string studentId, string courseId)
         {
             await _studentManagementService.DropStudentFromCourse(studentId, courseId);
