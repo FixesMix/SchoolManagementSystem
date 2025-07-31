@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0e0e0e;
+            color: #f1f1f1;
+            font-family: 'Segoe UI', sans-serif;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #1a1a1a;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 2rem 1rem;
+            border-right: 1px solid #333;
+        }
+
+            .sidebar h3 {
+                color: #fff;
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+
+            .sidebar a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: #ccc;
+                text-decoration: none;
+                border-radius: 8px;
+            }
+
+                .sidebar a:hover {
+                    background-color: #2a2a2a;
+                    color: #fff;
+                }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 2rem;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .table-container {
+            background-color: #1e1e1e;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.5);
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+        }
+
+        .modal-content {
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+
+        .form-control {
+            background-color: #2a2a2a;
+            color: #fff;
+            border: none;
+        }
+
+            .form-control:focus {
+                background-color: #333;
+                color: #fff;
+            }
+
+        .accordion-button {
+            background-color: #1a1a1a;
+            color: #eee;
+        }
+
+        .accordion-body {
+            background-color: #1e1e1e;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Student Portal</h3>
+        <a href="#" class="active">Dashboard</a>
+        <a href="#" onclick="openEnrollModal()">Enroll in Courses</a>
+        <a href="#">Schedule</a>
+        <a href="#">Grades</a>
+        <a href="#">Logout</a>
+    </div>
+    <div class="main-content">
+        <!-- Advisor Info -->
+        <div class="table-container mb-4 d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="/images/advisor-placeholder.jpg" alt="Advisor Photo" class="rounded-circle me-3" style="width: 64px; height: 64px; object-fit: cover;">
+                <div>
+                    <h5 class="mb-1" id="advisorName">Advisor Name</h5>
+                    <small id="advisorContact">Contact: N/A</small><br>
+                    <small id="advisorOffice">Office: N/A</small>
+                </div>
+            </div>
+            <span class="badge bg-secondary">Assigned Advisor</span>
+        </div>
+
+        <h2 class="mb-4">My Courses</h2>
+        <div class="mb-3">
+            <span class="badge bg-secondary" id="courseCount">Courses Enrolled: 0</span>
+        </div>
+
+        <!-- Weekly Mini Calendar -->
+        <div class="table-container mb-4">
+            <div class="accordion" id="miniScheduleAccordion">
+                <div class="accordion-item border-0 bg-transparent">
+                    <h2 class="accordion-header" id="miniScheduleHeading">
+                        <button class="accordion-button collapsed btn btn-outline-light rounded-pill px-3 py-1 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#miniScheduleCollapse">
+                            Weekly Calendar
+                        </button>
+                    </h2>
+                    <div id="miniScheduleCollapse" class="accordion-collapse collapse" data-bs-parent="#miniScheduleAccordion">
+                        <div class="accordion-body p-2">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-sm text-center align-middle mb-0" style="font-size: 0.75rem; background-color: #1f1f1f; color: white;">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th scope="col" style="width: 10%;">⏰</th>
+                                            <th scope="col">Mon</th>
+                                            <th scope="col">Tue</th>
+                                            <th scope="col">Wed</th>
+                                            <th scope="col">Thu</th>
+                                            <th scope="col">Fri</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="scheduleGrid"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container mb-4">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Professor</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="enrolledCourses"></tbody>
+            </table>
+        </div>
+
+
+
+        <!-- Billing Accordion -->
+        <div class="accordion mb-4" id="billingAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBill">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBill">
+                        View Billing Details
+                    </button>
+                </h2>
+                <div id="collapseBill" class="accordion-collapse collapse" data-bs-parent="#billingAccordion">
+                    <div class="accordion-body">
+                        <div id="billingInfo">Loading billing details...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Enroll Modal -->
+        <div class="modal fade" id="enrollModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Available Courses</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" id="courseSearch" class="form-control mb-3" placeholder="Search courses...">
+                        <table class="table table-hover table-dark">
+                            <thead>
+                                <tr><th>Course</th><th>Professor</th><th>Action</th></tr>
+                            </thead>
+                            <tbody id="availableCourses"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const studentId = localStorage.getItem("studentId");
+            const token = localStorage.getItem("token");
+            const headers = { "Authorization": `Bearer ${token}` };
+
+            function openEnrollModal() {
+                const modal = new bootstrap.Modal(document.getElementById("enrollModal"));
+                modal.show();
+                loadAvailableCourses();
+            }
+
+            async function loadCourses() {
+                const res = await fetch(`/api/student/display-student-by-id?id=${studentId}`, { headers });
+                const data = await res.json();
+                const enrolled = data.enrolledCourses || [];
+
+                document.getElementById("courseCount").textContent = `Courses Enrolled: ${enrolled.length}`;
+                const table = document.getElementById("enrolledCourses");
+                table.innerHTML = "";
+
+                for (const course of enrolled) {
+                    table.innerHTML += `
+                              <tr>
+                                <td>${course.name}</td>
+                                <td>${course.professorName || "-"}</td>
+                                <td><button class="btn btn-danger btn-sm" onclick="confirmDrop('${course.id}')">Drop</button></td>
+                              </tr>`;
+                }
+            }
+
+            async function loadBilling() {
+                const res = await fetch(`/api/fees/get-Student-Fees?studentId=${studentId}`, { headers });
+                const data = await res.json();
+                const container = document.getElementById("billingInfo");
+                container.innerHTML = `
+                            <p><strong>Student Level:</strong> ${data.studentLevel}</p>
+                            <p><strong>Total Fee:</strong> $${data.feeAmount.toFixed(2)}</p>
+                            <ul class="list-group">
+                              <li class="list-group-item bg-dark text-light">Note: Full-time students may be charged a flat rate. Part-time fees are calculated per course.</li>
+                            </ul>
+                          `;
+            }
+
+            async function loadAvailableCourses() {
+                const res = await fetch(`/api/courses/available-for-student?id=${studentId}`, { headers });
+                const data = await res.json();
+                const table = document.getElementById("availableCourses");
+                table.innerHTML = "";
+
+                for (const course of data) {
+                    table.innerHTML += `
+                              <tr>
+                                <td>${course.name}</td>
+                                <td>${course.professorName || "-"}</td>
+                                <td><button class="btn btn-primary btn-sm" onclick="enroll('${course.id}')">Enroll</button></td>
+                              </tr>`;
+                }
+            }
+
+            async function enroll(courseId) {
+                if (!confirm("Enroll in this course?")) return;
+                const res = await fetch(`/api/student/enroll-student-in-course?studentId=${studentId}&courseId=${courseId}`, {
+                    method: "POST",
+                    headers
+                });
+                if (res.ok) {
+                    alert("Enrollment successful");
+                    loadCourses();
+                    loadAvailableCourses();
+                    loadBilling();
+                    loadScheduleGrid();
+                } else {
+                    alert("Error enrolling in course");
+                }
+            }
+
+            async function confirmDrop(courseId) {
+                if (!confirm("Are you sure you want to drop this course?")) return;
+                const res = await fetch(`/api/student/drop-student-from-course?studentId=${studentId}&courseId=${courseId}`, {
+                    method: "DELETE",
+                    headers
+                });
+                if (res.ok) {
+                    alert("Course dropped successfully");
+                    loadCourses();
+                    loadAvailableCourses();
+                    loadBilling();
+                    loadScheduleGrid();
+                } else {
+                    alert("Error dropping course");
+                }
+            }
+
+            document.getElementById("courseSearch").addEventListener("input", (e) => {
+                const term = e.target.value.toLowerCase();
+                [...document.querySelectorAll("#availableCourses tr")].forEach(row => {
+                    row.style.display = row.textContent.toLowerCase().includes(term) ? "" : "none";
+                });
+            });
+
+            async function loadAdvisorInfo() {
+                const res = await fetch(`/api/student/display-student-by-id?id=${studentId}`, { headers });
+                const data = await res.json();
+                document.getElementById("advisorName").textContent = data.advisor || "Unassigned";
+                document.getElementById("advisorContact").textContent = data.advisorPhone || "N/A";
+                document.getElementById("advisorOffice").textContent = data.advisorOffice || "N/A";
+            }
+
+            async function loadScheduleGrid() {
+                const res = await fetch(`/api/scheduling/retrieve-schedules?date=${new Date().toISOString()}`, { headers });
+                const scheduleData = await res.json();
+
+                const grid = document.getElementById("scheduleGrid");
+                const times = ["8AM", "10AM", "12PM", "2PM", "4PM"];
+                const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+
+                const matrix = {};
+                for (let time of times) {
+                    matrix[time] = {};
+                    for (let day of days) {
+                        matrix[time][day] = "";
+                    }
+                }
+
+                for (const entry of scheduleData) {
+                    const courseTime = new Date(entry.startTime);
+                    const hour = courseTime.getHours();
+                    const timeLabel = hour === 8 ? "8AM" : hour === 10 ? "10AM" : hour === 12 ? "12PM" : hour === 14 ? "2PM" : hour === 16 ? "4PM" : null;
+                    const dayLabel = courseTime.toLocaleDateString("en-US", { weekday: "long" });
+
+                    if (timeLabel && days.includes(dayLabel)) {
+                        matrix[timeLabel][dayLabel] = `<span class='badge bg-primary'>${entry.courseName || entry.courseId}</span>`;
+                    }
+                }
+
+                grid.innerHTML = "";
+                for (let time of times) {
+                    let row = `<tr><th class='bg-dark text-white'>${time}</th>`;
+                    for (let day of days) {
+                        row += `<td>${matrix[time][day]}</td>`;
+                    }
+                    row += `</tr>`;
+                    grid.innerHTML += row;
+                }
+            }
+
+            loadCourses();
+            loadBilling();
+            loadAdvisorInfo();
+            loadScheduleGrid();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

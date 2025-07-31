@@ -103,7 +103,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication(); // who are you
 app.UseAuthorization();  // what can you do

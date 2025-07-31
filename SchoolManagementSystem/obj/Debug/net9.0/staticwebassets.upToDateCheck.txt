@@ -1,0 +1,6 @@
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\wwwroot\html\Student_Dashboard.html
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\wwwroot\html\Login.html
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\wwwroot\html\Professor_Course_Dashboard.html
+wwwroot\html\Login.html
+wwwroot\html\Professor_Course_Dashboard.html
+wwwroot\html\Student_Dashboard.html

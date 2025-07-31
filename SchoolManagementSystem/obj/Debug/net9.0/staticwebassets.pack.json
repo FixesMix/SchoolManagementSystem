@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html",
+      "PackagePath": "staticwebassets\\html\\Login.html"
+    },
+    {
+      "Id": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html",
+      "PackagePath": "staticwebassets\\html\\Professor_Course_Dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html",
+      "PackagePath": "staticwebassets\\html\\Student_Dashboard.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SchoolManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SchoolManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SchoolManagementSystem.props",
+      "PackagePath": "build\\SchoolManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SchoolManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\SchoolManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SchoolManagementSystem.props",
+      "PackagePath": "buildTransitive\\SchoolManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

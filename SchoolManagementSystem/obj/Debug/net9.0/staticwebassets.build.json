@@ -1,12 +1,1042 @@
 {
   "Version": 1,
-  "Hash": "HmvuYe8Kv51IULu6/Lz+jZ+rgN8vN3OyCxcAzdFJFFA=",
+  "Hash": "RpT8764K2vMUPTAroDhaInaX1IlA4wGVQj2HilcIsNk=",
   "Source": "SchoolManagementSystem",
   "BasePath": "_content/SchoolManagementSystem",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "SchoolManagementSystem\\wwwroot",
+      "Source": "SchoolManagementSystem",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\ezx7l4gf8j-sv80m0jiw1.gz",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Student_Dashboard#[.{fingerprint=sv80m0jiw1}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y8x78xrxao",
+      "Integrity": "7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\wmu7jow07j-qq8115jwny.gz",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Login#[.{fingerprint=qq8115jwny}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "huvdd0qi5r",
+      "Integrity": "h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\y4drye19dd-81v1x0y3hd.gz",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Professor_Course_Dashboard#[.{fingerprint=81v1x0y3hd}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7ivjt81v53",
+      "Integrity": "P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qq8115jwny",
+      "Integrity": "gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Login.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Professor_Course_Dashboard#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "81v1x0y3hd",
+      "Integrity": "pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Professor_Course_Dashboard.html"
+    },
+    {
+      "Identity": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html",
+      "SourceId": "SchoolManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "BasePath": "_content/SchoolManagementSystem",
+      "RelativePath": "html/Student_Dashboard#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sv80m0jiw1",
+      "Integrity": "+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Student_Dashboard.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "html/Login.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\wmu7jow07j-qq8115jwny.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000694444444"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1439"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I="
+        }
+      ]
+    },
+    {
+      "Route": "html/Login.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I="
+        }
+      ]
+    },
+    {
+      "Route": "html/Login.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\wmu7jow07j-qq8115jwny.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE="
+        }
+      ]
+    },
+    {
+      "Route": "html/Login.qq8115jwny.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\wmu7jow07j-qq8115jwny.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000694444444"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1439"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qq8115jwny"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I="
+        }
+      ]
+    },
+    {
+      "Route": "html/Login.qq8115jwny.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qq8115jwny"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gudkUy6DCU9vIVupjyVbOxZYoixnh8zmeAY8B/x51+I="
+        }
+      ]
+    },
+    {
+      "Route": "html/Login.qq8115jwny.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\wmu7jow07j-qq8115jwny.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 19:29:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qq8115jwny"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9Av/iJeveOwBFOVYd/tijmGNOFP054dYeHle9BF8PE="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.81v1x0y3hd.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\y4drye19dd-81v1x0y3hd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000970873786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81v1x0y3hd"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Professor_Course_Dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.81v1x0y3hd.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81v1x0y3hd"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Professor_Course_Dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.81v1x0y3hd.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\y4drye19dd-81v1x0y3hd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "81v1x0y3hd"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Professor_Course_Dashboard.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\y4drye19dd-81v1x0y3hd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000970873786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Professor_Course_Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAuRR6SDZYGLtDX0Ijtsj2vDCiclqbnSHZBhenYJD00="
+        }
+      ]
+    },
+    {
+      "Route": "html/Professor_Course_Dashboard.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\y4drye19dd-81v1x0y3hd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 14:41:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1Ok03Vt8DRUKtIpRuipo601/mA4ojnC5UuoMoiiRXs="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\ezx7l4gf8j-sv80m0jiw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000280819994"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3560"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\ezx7l4gf8j-sv80m0jiw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.sv80m0jiw1.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\ezx7l4gf8j-sv80m0jiw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000280819994"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3560"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sv80m0jiw1"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Student_Dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.sv80m0jiw1.html",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\html\\Student_Dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sv80m0jiw1"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Student_Dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LIW125ar90XX4NLjeeePqMWpnZTnruIX7c5DcMmJf4="
+        }
+      ]
+    },
+    {
+      "Route": "html/Student_Dashboard.sv80m0jiw1.html.gz",
+      "AssetFile": "C:\\Users\\Aura\\Documents\\GitHub\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\compressed\\ezx7l4gf8j-sv80m0jiw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 17:49:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sv80m0jiw1"
+        },
+        {
+          "Name": "label",
+          "Value": "html/Student_Dashboard.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7j9nTuvotQaFhqfQNplSAV0E4FpJiKyc0P4zWdx5jJk="
+        }
+      ]
+    }
+  ]
 }

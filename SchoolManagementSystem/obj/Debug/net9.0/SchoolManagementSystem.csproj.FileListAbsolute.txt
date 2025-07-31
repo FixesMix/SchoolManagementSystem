@@ -235,3 +235,9 @@ C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj
 C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\SchoolManagementSystem.pdb
 C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\SchoolManagementSystem.genruntimeconfig.cache
 C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\ref\SchoolManagementSystem.dll
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net9.0\SchoolManagementSystem.staticwebassets.runtime.json
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net9.0\wwwroot\html\Login.html
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net9.0\wwwroot\html\Student_Dashboard.html
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\compressed\y4drye19dd-81v1x0y3hd.gz
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\compressed\ezx7l4gf8j-sv80m0jiw1.gz
+C:\Users\Aura\Documents\GitHub\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\compressed\wmu7jow07j-qq8115jwny.gz

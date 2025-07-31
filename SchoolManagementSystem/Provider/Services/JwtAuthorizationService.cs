@@ -56,7 +56,8 @@ namespace SchoolManagementSystem.Provider.Services
                     EnrollDate = DateTime.UtcNow,
                     GraduationDate = DateTime.UtcNow.AddYears(4),
                     //EnrolledCourses = new List<string>(),
-                    CompletedCredits = 0
+                    CompletedCredits = 0,
+                    StudentType = "Part Time"
                 };
                 _dbContext.Students.Add(student);
             }
@@ -96,7 +97,7 @@ namespace SchoolManagementSystem.Provider.Services
                 new Claim(JwtRegisteredClaimNames.Sub, user.Username),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim("role", user.Role)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtConfig.Key));

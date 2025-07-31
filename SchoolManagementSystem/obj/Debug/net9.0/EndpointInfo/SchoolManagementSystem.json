@@ -169,7 +169,7 @@
         }
       }
     },
-    "/Add-course-fee": {
+    "/add-course-fee": {
       "post": {
         "tags": [
           "Fees"
@@ -198,7 +198,7 @@
         }
       }
     },
-    "/Assign-student-fee": {
+    "/assign-student-fee": {
       "post": {
         "tags": [
           "Fees"
@@ -229,7 +229,7 @@
         }
       }
     },
-    "/Get-Student-Fees": {
+    "/get-Student-Fees": {
       "get": {
         "tags": [
           "Fees"
@@ -250,7 +250,7 @@
         }
       }
     },
-    "/Update-student-fee": {
+    "/update-student-fee": {
       "put": {
         "tags": [
           "Fees"
@@ -333,7 +333,7 @@
         }
       }
     },
-    "/api/Grades/get-list-of-a-student's-grades": {
+    "/api/Grades/get-list-of-a-students-grades": {
       "get": {
         "tags": [
           "Grades"
@@ -354,7 +354,7 @@
         }
       }
     },
-    "/api/Grades/get-student's-grade-in-1-course": {
+    "/api/Grades/get-student-grade-in-1-course": {
       "get": {
         "tags": [
           "Grades"
@@ -508,7 +508,7 @@
         }
       }
     },
-    "/api/ProfessorManagement/Display Professor": {
+    "/api/ProfessorManagement/display-professor": {
       "get": {
         "tags": [
           "ProfessorManagement"
@@ -546,7 +546,7 @@
         }
       }
     },
-    "/api/ProfessorManagement/Display Professor By Id": {
+    "/api/ProfessorManagement/display-professor-by-id": {
       "get": {
         "tags": [
           "ProfessorManagement"
@@ -593,7 +593,7 @@
         }
       }
     },
-    "/api/ProfessorManagement/Create Professor": {
+    "/api/ProfessorManagement/create-professor": {
       "post": {
         "tags": [
           "ProfessorManagement"
@@ -633,7 +633,7 @@
         }
       }
     },
-    "/api/ProfessorManagement/Update Professor": {
+    "/api/ProfessorManagement/update-professor": {
       "put": {
         "tags": [
           "ProfessorManagement"
@@ -673,7 +673,7 @@
         }
       }
     },
-    "/api/ProfessorManagement/Delete Professor": {
+    "/api/ProfessorManagement/delete-professor": {
       "delete": {
         "tags": [
           "ProfessorManagement"
@@ -694,7 +694,7 @@
         }
       }
     },
-    "/api/Scheduling/Create schedule": {
+    "/api/Scheduling/create-schedule": {
       "post": {
         "tags": [
           "Scheduling"
@@ -725,7 +725,7 @@
         }
       }
     },
-    "/api/Scheduling/Update schedules": {
+    "/api/Scheduling/update-schedules": {
       "put": {
         "tags": [
           "Scheduling"
@@ -765,7 +765,7 @@
         }
       }
     },
-    "/api/Scheduling/Delete schedules": {
+    "/api/Scheduling/delete-schedules": {
       "delete": {
         "tags": [
           "Scheduling"
@@ -786,7 +786,7 @@
         }
       }
     },
-    "/api/Scheduling/Retrieve schedules": {
+    "/api/Scheduling/retrieve-schedules": {
       "get": {
         "tags": [
           "Scheduling"
@@ -808,7 +808,7 @@
         }
       }
     },
-    "/api/StudentManagement/display student": {
+    "/api/StudentManagement/display-student": {
       "get": {
         "tags": [
           "StudentManagement"
@@ -846,7 +846,7 @@
         }
       }
     },
-    "/api/StudentManagement/display student by id": {
+    "/api/StudentManagement/display-student-by-id": {
       "get": {
         "tags": [
           "StudentManagement"
@@ -893,7 +893,7 @@
         }
       }
     },
-    "/api/StudentManagement/create student": {
+    "/api/StudentManagement/create-student": {
       "post": {
         "tags": [
           "StudentManagement"
@@ -933,7 +933,7 @@
         }
       }
     },
-    "/api/StudentManagement/update student": {
+    "/api/StudentManagement/update-student": {
       "put": {
         "tags": [
           "StudentManagement"
@@ -973,7 +973,7 @@
         }
       }
     },
-    "/api/StudentManagement/delete student": {
+    "/api/StudentManagement/delete-student": {
       "delete": {
         "tags": [
           "StudentManagement"
@@ -994,7 +994,7 @@
         }
       }
     },
-    "/api/StudentManagement/assign advisor": {
+    "/api/StudentManagement/assign-advisor": {
       "put": {
         "tags": [
           "StudentManagement"
@@ -1022,7 +1022,7 @@
         }
       }
     },
-    "/api/StudentManagement/enroll student in course": {
+    "/api/StudentManagement/enroll-student-in-course": {
       "post": {
         "tags": [
           "StudentManagement"
@@ -1050,7 +1050,7 @@
         }
       }
     },
-    "/api/StudentManagement/drop student from course": {
+    "/api/StudentManagement/drop-student-from-course": {
       "delete": {
         "tags": [
           "StudentManagement"
@@ -1074,45 +1074,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -1431,29 +1392,6 @@
           "studentLevel": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

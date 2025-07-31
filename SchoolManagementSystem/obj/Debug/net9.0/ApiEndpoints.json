@@ -18,7 +18,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.FeesController",
     "Method": "AddCourseFee",
-    "RelativePath": "Add-course-fee",
+    "RelativePath": "add-course-fee",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -92,7 +92,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.GradesController",
     "Method": "GetStudentGrades",
-    "RelativePath": "api/Grades/get-list-of-a-student\u0027s-grades",
+    "RelativePath": "api/Grades/get-list-of-a-students-grades",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -108,7 +108,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.GradesController",
     "Method": "GetGrade",
-    "RelativePath": "api/Grades/get-student\u0027s-grade-in-1-course",
+    "RelativePath": "api/Grades/get-student-grade-in-1-course",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -187,7 +187,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.ProfessorManagementController",
     "Method": "CreateProfessor",
-    "RelativePath": "api/ProfessorManagement/Create Professor",
+    "RelativePath": "api/ProfessorManagement/create-professor",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -208,7 +208,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.ProfessorManagementController",
     "Method": "DeleteProfessor",
-    "RelativePath": "api/ProfessorManagement/Delete Professor",
+    "RelativePath": "api/ProfessorManagement/delete-professor",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -224,7 +224,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.ProfessorManagementController",
     "Method": "DisplayProfessors",
-    "RelativePath": "api/ProfessorManagement/Display Professor",
+    "RelativePath": "api/ProfessorManagement/display-professor",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -244,7 +244,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.ProfessorManagementController",
     "Method": "DisplayStudentsById",
-    "RelativePath": "api/ProfessorManagement/Display Professor By Id",
+    "RelativePath": "api/ProfessorManagement/display-professor-by-id",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -270,7 +270,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.ProfessorManagementController",
     "Method": "UpdateStudent",
-    "RelativePath": "api/ProfessorManagement/Update Professor",
+    "RelativePath": "api/ProfessorManagement/update-professor",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -291,7 +291,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.SchedulingController",
     "Method": "CreateSchedule",
-    "RelativePath": "api/Scheduling/Create schedule",
+    "RelativePath": "api/Scheduling/create-schedule",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -307,7 +307,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.SchedulingController",
     "Method": "CancelSchedule",
-    "RelativePath": "api/Scheduling/Delete schedules",
+    "RelativePath": "api/Scheduling/delete-schedules",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -323,7 +323,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.SchedulingController",
     "Method": "GetSchedulesByDate",
-    "RelativePath": "api/Scheduling/Retrieve schedules",
+    "RelativePath": "api/Scheduling/retrieve-schedules",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -339,7 +339,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.SchedulingController",
     "Method": "UpdateSchedule",
-    "RelativePath": "api/Scheduling/Update schedules",
+    "RelativePath": "api/Scheduling/update-schedules",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -360,7 +360,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "AssignAdvisor",
-    "RelativePath": "api/StudentManagement/assign advisor",
+    "RelativePath": "api/StudentManagement/assign-advisor",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -381,7 +381,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "CreateStudent",
-    "RelativePath": "api/StudentManagement/create student",
+    "RelativePath": "api/StudentManagement/create-student",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -402,7 +402,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "DeleteStudent",
-    "RelativePath": "api/StudentManagement/delete student",
+    "RelativePath": "api/StudentManagement/delete-student",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -418,7 +418,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "DisplayStudents",
-    "RelativePath": "api/StudentManagement/display student",
+    "RelativePath": "api/StudentManagement/display-student",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -438,7 +438,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "DisplayStudentsById",
-    "RelativePath": "api/StudentManagement/display student by id",
+    "RelativePath": "api/StudentManagement/display-student-by-id",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -464,7 +464,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "DropStudentFromCourse",
-    "RelativePath": "api/StudentManagement/drop student from course",
+    "RelativePath": "api/StudentManagement/drop-student-from-course",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -485,7 +485,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "EnrollStudentInCourse",
-    "RelativePath": "api/StudentManagement/enroll student in course",
+    "RelativePath": "api/StudentManagement/enroll-student-in-course",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -506,7 +506,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.StudentManagementController",
     "Method": "UpdateStudent",
-    "RelativePath": "api/StudentManagement/update student",
+    "RelativePath": "api/StudentManagement/update-student",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -527,7 +527,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.FeesController",
     "Method": "AssignStudentFee",
-    "RelativePath": "Assign-student-fee",
+    "RelativePath": "assign-student-fee",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -601,7 +601,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.FeesController",
     "Method": "GetStudentFee",
-    "RelativePath": "Get-Student-Fees",
+    "RelativePath": "get-Student-Fees",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -648,7 +648,7 @@
   {
     "ContainingType": "SchoolManagementSystem.Controllers.FeesController",
     "Method": "UpdateStudentFee",
-    "RelativePath": "Update-student-fee",
+    "RelativePath": "update-student-fee",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -660,26 +660,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolManagementSystem.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[SchoolManagementSystem.WeatherForecast, SchoolManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
